@@ -1,0 +1,3 @@
+torch=2.9.1+rocm6.3
+diffuser==0.38.0
+transformers==4.44.2
