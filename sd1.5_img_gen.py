@@ -3,7 +3,6 @@ import torch
 from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
 from diffusers import DDIMScheduler
 torch.set_float32_matmul_precision('high')
-model_path = "/home/tungf/data/chilloutmix_NiPrunedFp32Fix.safetensors"
 
 prompt_1 = "1girl, detailed face, from side, profile view, looking away, holding a coffee cup with both hands, wearing stylish casual clothing, sitting in a modern coffee shop, natural morning lighting, depth of field, ulzzang-6500, portrait photography, masterpiece, best quality, ultra high resolution, highly detailed, photorealistic, (ulzzang-6500:1.0)"
 prompt_2 = "1girl, detailed face, from above, three-quarter view, looking down, reading a book, gentle smile, wearing stylish casual clothing, sitting in a modern coffee shop, soft window light, depth of field, upper body, ulzzang-6500, portrait photography, masterpiece, best quality, ultra high resolution, highly detailed, photorealistic, (ulzzang-6500:1.0)"
